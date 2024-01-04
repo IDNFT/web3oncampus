@@ -14,95 +14,67 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+              <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Embrace</a> · <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Educate</a> · <a className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Empower</a>
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Programs</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web3 on Campus</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">IDNFT Academy</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Beyond Canvas</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Temu NFT</a>
               </li>
             </ul>
           </div>
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Pages</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">News</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programs</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
-              </li>
-            </ul>
-          </div>
-
-          {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Community</a>
               </li>
             </ul>
           </div>
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
+            <h6 className="text-gray-800 font-medium mb-2">Contact Us</h6>
+            <p className="text-sm text-gray-600 mb-4">Let's collaborate with us by contacting via email.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
                   <label className="block text-sm sr-only" htmlFor="newsletter">Email</label>
                   <div className="relative flex items-center max-w-xs">
                     <input id="newsletter" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="Your email" required />
-                    <button type="submit" className="absolute inset-0 left-auto" aria-label="Subscribe">
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=hi.idnft@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello%20IDNFT%2C%0A%0AI%20hope%20this%20message%20find%20you%20well.%20We%E2%80%99ve%20been%20following%20IDNFT's%20impactful%20work%20in%20the%20Web3%20and%20NFT%20space%20and%20are%20impressed%20by%20the%20innovative%20initiative,%0AI%20believe%20there%20could%20be%20exciting%20collaboration%20opportunities%20between%20our%20organizations.%20%0A%0ALooking%20forward%20to%20the%20possibility%20of%20working%20together,%0A%0A%0ABest%20regards,%2C%0A%0A%0A%0A" type="submit" className="absolute inset-0 left-auto" aria-label="Subscribe" rel="noopener" target="_blank" >
                       <span className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300" aria-hidden="true"></span>
-                      <svg className="w-3 h-3 fill-current text-blue-600 mx-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="w-3 h-3 fill-current text-red-600 mx-3 shrink-0 my-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
                       </svg>
-                    </button>
+                    </a>
                   </div>
                   {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                   {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
                 </div>
               </div>
             </form>
@@ -153,7 +125,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; IDNFT. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">2024 &copy; IDNFT. All rights reserved.</div>
 
         </div>
 

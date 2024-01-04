@@ -28,12 +28,6 @@ export default function HeroAcademy() {
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Providing an opportunity for students in Indonesia to engage in or develop their knowledge in NFT, Blockchain, Crypto, Metaverse, and Web3 in a campus environment. </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn rounded-full font-bold text-white bg-red-700 hover:bg-red-300 hover:text-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#">Join Us</a>
-                </div>
-                <div>
-                  <a className="btn rounded-full text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
               </div>
             </div>
           </div>
