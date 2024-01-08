@@ -1,7 +1,7 @@
 import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/media-video'
 
-export default function HeroAcademy() {
+export default function HeroWeb3Campus() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
